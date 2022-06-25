@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="favicon.png">
 
-    <title>Circle Video | Home Page</title>
+    <title>Leomz Vlog | Home Page</title>
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -39,7 +39,7 @@
                     <div class="col-lg-1 col-sm-2 col-xs-6">
                         <a class="navbar-brand" href="index.html">
                             <img src="images/logo.svg" alt="Project name" class="logo" />
-                            <span>Circle</span>
+                            <span>Leomz</span>
                         </a>
                     </div>
                     <div class="col-lg-3 col-sm-10 hidden-xs">
@@ -70,6 +70,27 @@
                             <li><a href="channel.html">Channels</a></li>
                         </ul>
                     </div>
+
+                    <script type="text/javascript">
+
+                        function go_get(){
+                         var base_url = 'http://www.youtube.com/embed?listType=search&list=' ;
+                         var search_field = document.getElementById('yourtextfield').text ;
+                         var target_url = base_url + search_field ;
+                         var ifr = document.getElementById('youriframe') ;
+                         ifr.src = target_url ;
+                         return false ;
+                        }
+                        
+                        </script> 
+                        
+                        <form onsubmit="go_get(); return false;" >
+                         <input type="text"  id="yourtextfield"/>
+                         <input type="submit" value="Search Playlists" />
+                        </form>
+                        
+                        <iframe id="youriframe" width="640" height="360" ></iframe>
+
                     <div class="col-lg-6 col-sm-8 col-xs-3">
                         <form action="search.html" method="post">
                             <div class="topsearch">
@@ -257,6 +278,39 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
+
+                <!-- Updates quotes -->
+                <div class="content-block">
+                    <div class="cb-header">
+                        <div class="row">
+                            <div class="col-lg-10 col-sm-10 col-xs-10">
+                                <ul class="list-inline">
+                                    <li><a href="#">Quotes for the Day</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-2 col-sm-2 col-xs-2">
+                                <div class="btn-group pull-right bg-clean">
+                                    
+                                    
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cb-content avatars">
+                        
+                       
+                        <ul class="list-inline">
+                            <li>vhdisuhdishdishdi</li>
+                        </ul>
+                        
+                    </div>
+                </div>
+                <!-- /Updates quotes -->
+
+
+
+
 
                 <!-- Updates from Subscriptions -->
                 <div class="content-block">
@@ -870,7 +924,7 @@
                     <!--<a class="navbar-brand" href="index.html"><img src="images/logo.svg" alt="Project name" class="logo" /></a>-->
                     <a class="navbar-brand" href="index.html">
                         <img src="images/logo.svg" alt="Project name" class="logo" />
-                        <span>Circle</span>
+                        <span>Leomz</span>
                     </a>
                 </div>
                 <div class="col-lg-7 col-sm-6 col-xs-12">
@@ -890,7 +944,7 @@
                         <ul class="list-inline">
                             <li><a href="#">Terms</a></li>
                             <li><a href="#">Privacy</a></li>
-                            <li>Copyrights 2016 <a href="azyrusthemes.com" class="hidden-xs">azyrusthemes.com</a></li>
+                            <li>Copyrights 2022 <a href="azyrusthemes.com" class="hidden-xs">leomz.xyz</a></li>
                         </ul>
                     </div>
                 </div>
